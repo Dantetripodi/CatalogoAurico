@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 6,
             nombre: "Roll Citrico",
-            marca: "Aurico Armani",
+            marca: "Aurico",
             genero: "Roll",
             familia: "citrico",
             precio: 18000,
