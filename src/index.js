@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             familia: "floral",
             precio: 21000,
             popularidad:"",
-            imagen: "img/kitPersonal.jpg",
+            imagen: "img/kitLimpieza.jpg",
             descripcion: "Estas brumas energéticas realizadas a través de una receta ancestral con plantas y aceites esenciales respetando el tiempo de macerado, filtradas e intencionadas con gemoterapia sagrada, tienen un alto poder energético para utilizar en personas y mascotas.",
             notas: "Jazmín, Rosa, Ylang-Ylang"
         },
