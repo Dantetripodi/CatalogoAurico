@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             precio:"--",
             popularidad: 4,
             imagen: "img/limpieza.jpg",
-            descripcion: "La fragancia es de ruda, romero, salvia blanca e incienso",
+            descripcion: "ruda, romero, salvia blanca e incienso",
             notas: "-"
         },
         {
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             precio:"--" ,
             popularidad: 5,
             imagen: "img/proteccion.jpg",
-            descripcion: "La fragancia es de lavanda, salvia, menta, anis y cilantro.",
+            descripcion: "lavanda, salvia, menta, anis y cilantro.",
             notas: "-"
         },
         {
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             precio: "--",
             popularidad: 4,
             imagen: "img/revitalizar.jpg",
-            descripcion: "La fragancia es de naranja, pomelo rosado, mandarina, limón y Clavo de olor.",
+            descripcion: "naranja, pomelo rosado, mandarina, limón y Clavo de olor.",
             notas: "-"
         },
         {
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
             precio: 21000,
             popularidad: 5,
             imagen: "img/aceiteMasajes.jpg",
-            descripcion: "Una fragancia moderna con notas de naranja, rosa y pachulí.",
+            descripcion: "Aceite de Romero para masajes una maceracion de Romero, Lavanda y Clavo de olor en base de aceite de Rosa Mosqueta Organico.Descontracturante, Descongestivo y Calmante.",
             notas: "Naranja, Rosa, Pachulí"
         },
     ];
