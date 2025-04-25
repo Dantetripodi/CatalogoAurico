@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
             nombre: "Roll Cereza",
             marca: "Aurico",
             genero: "Roll",
-            familia: "floral",
+            familia: "oriental",
             precio: 18000,
             popularidad: 5,
             imagen: "img/roll-cereza.jpg",
