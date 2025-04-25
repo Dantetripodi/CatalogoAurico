@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 2,
             nombre: "Spray Limpieza",
-            marca: "AURICO",
+            marca: "Aurico",
             genero: "Spray",
             familia: "amaderado",
             precio:"--",
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 6,
             nombre: "Roll Citrico",
-            marca: "Giorgio Armani",
+            marca: "Aurico Armani",
             genero: "Roll",
             familia: "citrico",
             precio: 18000,
