@@ -87,14 +87,14 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 8,
-            nombre: "Unguento de Calendula",
+            nombre: "Ungüento de Calendula",
             marca: "Aurico",
-            genero: "Unguento",
+            genero: "Ungüento",
             familia: "oriental",
             precio: 21000,
             popularidad: 5,
             imagen: "img/unguento-calendula.jpg",
-            descripcion: "Nuestro Unguento de Calendula es un producto natural realizado a traves de una receta ancestral con cuatro meses de maceracion, contiene manteca de karite organica y vitamina e concentrada..",
+            descripcion: "Nuestro Ungüento de Calendula es un producto natural realizado a traves de una receta ancestral con cuatro meses de maceracion, contiene manteca de karite organica y vitamina e concentrada..",
             notas: "Naranja, Rosa, Pachulí"
         },
         {
@@ -278,19 +278,15 @@ document.addEventListener('DOMContentLoaded', function() {
                     genderColor = 'bg-blue-100 text-blue-800';
                     genderText = 'SPRAY';
                     break;
-                case 'Unguento':
+                case 'Ungüento':
                     genderColor = 'bg-blue-100 text-purple-800';
-                    genderText = 'UNGUENTO';
+                    genderText = 'UNGÜENTO';
                     break;
                 case 'Aceites':
                     genderColor = 'bg-blue-100 text-pink-800';
                     genderText = 'ACEITES';
                     break;
-                case '':
-                    genderColor = 'bg-blue-100 text-blue-800';
-                    genderText = '';
-                    break;
-            }
+                }
             
             // Determinar icono según familia olfativa
             let familyIcon = '';
