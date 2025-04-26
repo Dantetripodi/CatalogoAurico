@@ -323,23 +323,22 @@ document.addEventListener('DOMContentLoaded', function() {
                     <p class="text-sm text-gray-500 mb-4">${perfume.descripcion}</p>
                     <div class="flex justify-between items-center">
                         <span class="text-2xl font-bold text-black-700">$${perfume.precio}</span>
-                        <button class="add-to-cart px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-purple-700 transition" data-id="${perfume.id}">
-                            <i class="fas fa-shopping-cart mr-2"></i>Comprar
-                        </button>
-                    </div>
+                       </div>
                 </div>
             `;
-            
+            //<button class="add-to-cart px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-purple-700 transition" data-id="${perfume.id}">
+            //<i class="fas fa-shopping-cart mr-2"></i>Comprar
+            //</button>
             perfumesContainer.appendChild(perfumeCard);
         });
         
         // Agregar event listeners a los botones de compra
-        document.querySelectorAll('.add-to-cart').forEach(button => {
-            button.addEventListener('click', function() {
-                const perfumeId = parseInt(this.dataset.id);
-                const selectedPerfume = perfumes.find(p => p.id === perfumeId);
-                alert(`Has añadido ${selectedPerfume.nombre} de ${selectedPerfume.marca} al carrito.`);
-            });
-        });
+        // document.querySelectorAll('.add-to-cart').forEach(button => {
+        //     button.addEventListener('click', function() {
+        //         const perfumeId = parseInt(this.dataset.id);
+        //         const selectedPerfume = perfumes.find(p => p.id === perfumeId);
+        //         alert(`Has añadido ${selectedPerfume.nombre} de ${selectedPerfume.marca} al carrito.`);
+        //     });
+        // });
     }
 });
