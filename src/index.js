@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 8,
-            nombre: "Unguento Perfumado",
+            nombre: "Unguento de Calendula",
             marca: "Aurico",
             genero: "Unguento",
             familia: "oriental",
