@@ -1,0 +1,15 @@
+#header {
+    display: flex;
+    justify-content: space-between; /* Espacia el contenido a los extremos */
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 10px; /* Espaciado interno */
+}
+
+#logo {
+    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantiene la proporción del logo */
+}
+.logo-footer {
+    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantiene la proporción del logo */
+}
